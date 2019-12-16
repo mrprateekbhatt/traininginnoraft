@@ -1,0 +1,25 @@
+.footer{
+    position:relative;
+    top:100%;
+    transform: translate(0%,-100%);
+    height:300px;
+    background-color:rgba(0,0,0,.7);
+    float: left;
+    width:33%;
+  
+  }
+  h2{
+    position:absolute;top:10%;float: left;left:20%;font-size:48px;
+  }
+  h1,h5{
+    padding: 20px;
+  }
+  body{
+    color:white;font-family:calibri;
+  }
+  #main{
+    width:100%;background-color:darkred;height:600px;clear:both;
+  }
+  img{
+    position:absolute;top:15%;float: left;left:60%;
+  }

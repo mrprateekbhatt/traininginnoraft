@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+        <link rel="stylesheet" href="./style.css">
+
+
+</head>
+  <body>
+    <div class="header">
+      <div class="logo">
+      <img src="./img/head_logo.jpg" alt="">
+      </div>
+      <div class="tabs">
+        <ul>
+          <a href="#">
+
+            <li>Home</li>
+          </a>
+          <a href="#">
+
+            <li>Services</li>
+          </a>
+          <a href="#">
+
+            <li>Profiles</li>
+          </a>
+          <a href="#">
+
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="banner">
+      <img class="mySlides" src="./img/2.jpg">
+ <img class="mySlides" src="./img/3.jpg">
+ <img class="mySlides" src="./img/4.jpg">
+ <img class="mySlides" src="./img/1.jpg">
+    </div>
+    <div class="b1" style="width:45%;height:400px;background-color:yellow;float:left;margin:15px">
+      <div style="width:50%;height:50%;background-color:pink;z-index:9;transform:translate(-5%,-5%);box-shadow:3px 3px 13px #B8B8B8	;"></div>
+    </div>
+    <div class="b1" style="width:45%;height:250px;background-color:orange;float:left;margin:5px">
+      <input class="s" type="text" name="" value=""><br>
+      <input class="s" type="text" name="" value=""><br>
+      <select class="s">
+        <option>sample1</option>
+        <option>sample1</option>
+        <option>sample3</option>
+
+      </select>
+      <input type="submit" class="s"/>
+    </div>
+    <div class="b1" style="width:45%;height:150px;background-color:lightblue;float:left;margin:5px"></div>
+<div class="footer">
+  <div class="tabs" style="padding: 5px;text-align: center;float:left;position:relative;left:50%;transform:translate(-50%,0%);width:auto;">
+    <ul >
+      <a href="#">
+
+        <li>Home</li>
+      </a>
+      <a href="#">
+
+        <li>Services</li>
+      </a>
+      <a href="#">
+
+        <li>Profiles</li>
+      </a>
+      <a href="#">
+
+        <li>Contact</li>
+      </a>
+    </ul>
+  </div>
+</div>
+
+  </body>
+
+  <script>
+  var myIndex = 0;
+
+
+  function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+  x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  carousel();
+  </script>
+  </html>

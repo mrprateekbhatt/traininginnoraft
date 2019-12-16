@@ -1,0 +1,19 @@
+div{
+  width:100%;
+  margin:6px;
+  margin-top: 0px;
+  margin-left:0px;
+  background-color: rgb(191, 0, 73);
+}
+#d1{
+height:100px;
+}
+#d2{width: 60%;float:left;height:350px;
+
+}
+#d3{width: 39%;float: right;height:350px;
+
+}
+#d4{height:100px;clear:both;
+
+}

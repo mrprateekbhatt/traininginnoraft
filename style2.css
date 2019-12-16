@@ -1,0 +1,27 @@
+#d1{
+    height:100px;
+  }
+  #d2{
+    width: 60%;float:left;height:350px;
+    }
+    #d4{
+    width: 39%;float: right;height:100px;
+  }
+  #d3{
+    width: 39%;float: right;height:250px;
+  }
+  #d5{
+    height:100px;clear:both;
+  }
+    div{
+      width:100%;
+      margin:6px;
+      margin-top: 0px;
+      margin-left:0px;
+      background-color: rgb(191, 0, 73);
+    }
+    h1{
+      color: white;
+      font-family: calibri;
+      text-align: center;;
+    }
